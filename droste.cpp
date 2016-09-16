@@ -63,20 +63,8 @@ int main()
 			 
 					}
 		
-		if(max>90 && maxi>=0)
-					{
-						
-
-						
-						//img=draw_droste(img,boundRect[maxi]);
-						
-						
-		
-					}//end of if maxi>0 condition
-		//resize(img,img,Size(800,600));//hide stackTrace
+	
 		imshow("Droste",img);
-		//imshow("Filter",imgt);
-		//imshow("BCF",imgb);
 		char c=waitKey(10);
 		if(c=='b')
 			break;
