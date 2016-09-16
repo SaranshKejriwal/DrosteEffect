@@ -62,6 +62,11 @@ int main()
 						
 			 
 					}
+					if(max>90 && maxi>=0)
+ 					{	
+						img=draw_droste(img,boundRect[maxi]);
+ 					
+ 					}//end of if maxi>0 condition
 		
 	
 		imshow("Droste",img);
